@@ -1,0 +1,117 @@
+{
+  "info": {
+    "_postman_id": "31df44d5-71fe-483f-96ff-8fca4f8be8e0",
+    "name": "day-1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50153209",
+    "_collection_link": "https://vishnusugathann-9653d258-5911471.postman.co/workspace/3300ed61-b121-4279-8743-4f7f06ec04c5/collection/50153209-31df44d5-71fe-483f-96ff-8fca4f8be8e0?action=share&source=collection_link&creator=50153209"
+  },
+  "item": [
+    {
+      "name": "get",
+      "id": "7e27ed8a-edb1-460e-a54e-452fa534e663",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/ff8081819782e69e019a95c2f37c1218",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            "ff8081819782e69e019a95c2f37c1218"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Post",
+      "id": "8720b808-71c3-4af3-a13f-286b5afa0540",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n   \"name\": \"Samsung\",\r\n   \"data\": {\r\n      \"year\": 2019,\r\n      \"price\": 1849.99,\r\n      \"CPU model\": \"Intel Core i9\",\r\n      \"Hard disk size\": \"1 TB\"\r\n   }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/ff8081819782e69e019a95c2f37c1218",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            "ff8081819782e69e019a95c2f37c1218"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update",
+      "id": "e0d998f8-2f32-4853-a7c9-03ece655bfc5",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n   \"name\": \"Samsung\",\r\n   \"data\": {\r\n      \"year\": 2019,\r\n      \"price\": 1849.99,\r\n      \"CPU model\": \"Intel Core i9\",\r\n      \"Hard disk size\": \"1 TB\"\r\n   }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/ff8081819782e69e019a95c2f37c1218",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            "ff8081819782e69e019a95c2f37c1218"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "delete",
+      "id": "dc3a5d4b-65f8-4122-afb6-243f33cb9dd6",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/ff8081819782e69e019a95c2f37c1218",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            "ff8081819782e69e019a95c2f37c1218"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
