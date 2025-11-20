@@ -1,0 +1,16 @@
+https://api.restful-api.dev/order - endpoint url  
+https://api.restful-api.dev - base url
+/order - path or resource
+<id> - Dynamic variable 
+
+https://api.restful-api.dev/account +POST create request body, Header content-type application/json
+https://api.restful-api.dev/account/<id> +PUT update request body, Header content-type: application/json
+https://api.restful-api.dev/account/<id> +DELETE delete
+https://api.restful-api.dev/account/<id> +GET -> zero (404) or 1 record (200)
+https://api.restful-api.dev/account/  +GET -> all records
+
+GET https://api.restful-api.dev/order
+GET https://api.restful-api.dev/order/<id>
+POST https://api.restful-api.dev/order
+PUT https://api.restful-api.dev/order/<id>
+DELETE https://api.restful-api.dev/order/<id>
