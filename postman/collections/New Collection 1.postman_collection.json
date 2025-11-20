@@ -1,0 +1,94 @@
+{
+  "info": {
+    "_postman_id": "5425fbe4-e7b8-4daf-9885-1a90bc0022cc",
+    "name": "Xpath",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "xml get",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "// Get the raw XML response text",
+              "const responseXml = pm.response.text();",
+              "",
+              "// Parse the XML using xml2js",
+              "const xml2js = require('xml2js');",
+              "let jsonData;",
+              "",
+              "// Use the xml2js parser to convert the XML to JSON",
+              "xml2js.parseString(responseXml, { trim: true }, function (err, result) {",
+              "    if (err) {",
+              "        console.log('Error parsing XML:', err);",
+              "        return;",
+              "    }",
+              "",
+              "    // The result is now a JavaScript object (JSON)",
+              "    jsonData = result;",
+              "",
+              "    // Log the entire JSON object to inspect its structure",
+              "    console.log(jsonData);",
+              "",
+              "    // Access specific values from the JSON object",
+              "    const slideshowTitle = jsonData.slideshow.$.title;  // Accessing title attribute of the slideshow",
+              "    const slideshowAuthor = jsonData.slideshow.$.author; // Accessing author attribute",
+              "    const firstSlideTitle = jsonData.slideshow.slide[0].title[0]; // Title of the first slide",
+              "    const itemsInSecondSlide = jsonData.slideshow.slide[1].item; // Items in the second slide",
+              "",
+              "    console.log('Slideshow Title:', slideshowTitle);",
+              "    console.log('Slideshow Author:', slideshowAuthor);",
+              "    console.log('First Slide Title:', firstSlideTitle);",
+              "    console.log('Items in the Second Slide:', itemsInSecondSlide);",
+              "",
+              "    // Assertions to validate specific values (optional)",
+              "    pm.test(\"Check slideshow title\", function () {",
+              "        pm.expect(slideshowTitle).to.eql(\"Sample Slide Show\");",
+              "    });",
+              "",
+              "    pm.test(\"Check slideshow author\", function () {",
+              "        pm.expect(slideshowAuthor).to.eql(\"Yours Truly\");",
+              "    });",
+              "",
+              "    pm.test(\"Check first slide title\", function () {",
+              "        pm.expect(firstSlideTitle).to.eql(\"Wake up to WonderWidgets!\");",
+              "    });",
+              "",
+              "    pm.test(\"Check second slide items count\", function () {",
+              "        pm.expect(itemsInSecondSlide.length).to.eql(3); // Expecting 3 items",
+              "    });",
+              "});",
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://httpbin.org/xml\n",
+          "protocol": "http",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "xml\n"
+          ]
+        }
+      }
+    }
+  ]
+}
