@@ -1,0 +1,62 @@
+{
+  "info": {
+    "_postman_id": "8dcb1e7d-de2d-4d01-b164-90c59ff5d6da",
+    "name": "Dynamic Run",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "post_dynamic",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "3faa2246-0514-49f0-a246-c79091bb80ec",
+            "exec": [
+              "pm.test(\"Content-Type is present\", function () {   \r",
+              "    pm.response.to.have.header(\"Content-Type\");\r",
+              "    const myvar = pm.environment.get(\"myvar\");\r",
+              "    console.log(\"hello\" + \" \" + myvar)\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "0ae5606c-76d9-424e-aa2b-0b9c759e96d2",
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "id": "e51ebe60-5fd5-4b52-ad48-e89c07a62185",
+      "request": {
+        "method": "POST",
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://postman-echo.com/post",
+          "protocol": "https",
+          "host": [
+            "postman-echo",
+            "com"
+          ],
+          "path": [
+            "post"
+          ]
+        }
+      }
+    }
+  ]
+}

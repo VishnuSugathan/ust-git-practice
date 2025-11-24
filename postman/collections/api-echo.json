@@ -1,0 +1,79 @@
+{
+  "info": {
+    "_postman_id": "bf4ef52c-250b-4ad0-bcf8-436f82de8222",
+    "name": "api-echo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "conflict Login",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "4e226beb-8efb-4e31-9930-165869c3e7e8",
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "id": "da13595c-3a85-448f-b0af-7e9602db8478",
+            "exec": [
+              "pm.test(\"Status code is 2xx for successful login\", function () {\r",
+              "    if (pm.response.code >= 200 && pm.response.code < 300) {\r",
+              "        var jsonData = pm.response.json();\r",
+              "        pm.expect(jsonData).to.have.property(\"access_token\");\r",
+              "    }\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Unauthorised returns 401\", function () {\r",
+              "    if (pm.response.code === 401) {\r",
+              "        var jsonData = pm.response.json();\r",
+              "        pm.expect(jsonData).to.have.property(\"message\");\r",
+              "        pm.expect(jsonData.message.toLowerCase()).to.include(\"unauthorized\");\r",
+              "    }\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Handle common error codes\", function(){\r",
+              "    pm.expect([200,201, 400, 401, 403, 404, 500]).to.include(pm.response.code)\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "id": "a99c058b-fbcf-4d3f-bf4a-cc652b6c2e6c",
+      "request": {
+        "method": "POST",
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"email\": \"john@mail.com\",\r\n  \"password\": \"changeme\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.escuelajs.co/api/v1/auth/login",
+          "protocol": "https",
+          "host": [
+            "api",
+            "escuelajs",
+            "co"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "auth",
+            "login"
+          ]
+        }
+      }
+    }
+  ]
+}
