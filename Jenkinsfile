@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'python:3.14.0-alpine3.22'  // Use the appropriate Python image
-            args '-u root:root'  // Run as root if necessary (optional)
+            args '-u root:root'  // Run as root to avoid permission issues (optional, may not be necessary)
         }
     }
 
@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from your Git repository
-                git 'https://github.com/your-username/your-repository.git'  // Replace with your repo URL
+                git 'https://github.com/VishnuSugathan/ust-git-practice'  // Replace with your repo URL
             }
         }
 
