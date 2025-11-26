@@ -1,0 +1,19 @@
+Virtual User Script started at : 2025-11-25 10:17:38
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/11/25 at 10:17:34 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00004527ms: ** 1: Add empty tab ** started    [MsgId: MMSG-205180]
+t=00004740ms: ** 1: Add empty tab ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005243ms: ** 2: Activate tab  #2 ** started    [MsgId: MMSG-205180]
+t=00005451ms: ** 2: Activate tab  #2 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005954ms: ** 3: Navigate to "http://www.google.com/" ** started    [MsgId: MMSG-205180]
+t=00009193ms: ** 3: Navigate to http://www.google.com/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00009700ms: ** 4: Click on Google Search textbox ** started    [MsgId: MMSG-205180]
+t=00009917ms: ** 4: Click on Google Search textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010419ms: ** 5: Type ust trivandrum in Google Search textbox ** started    [MsgId: MMSG-205180]
+t=00016259ms: ** 5: Type ust trivandrum in Google Search textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00016763ms: ** 6: Press Enter key on Google Search textbox ** started    [MsgId: MMSG-205180]
+t=00018048ms: ** 6: Press Enter key on Google Search textbox ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

@@ -1,0 +1,32 @@
+Virtual User Script started at : 2025-11-25 11:20:36
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/11/25 at 11:20:34 (0000.000s)
+t=00002611ms: ** 1: Add empty tab ** started    [MsgId: MMSG-205180]
+t=00002825ms: ** 1: Add empty tab ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00003331ms: ** 2: Activate tab  #2 ** started    [MsgId: MMSG-205180]
+t=00003572ms: ** 2: Activate tab  #2 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 1" started.
+t=00004107ms: ** 3: Navigate to "google.com" ** started    [MsgId: MMSG-205180]
+t=00007026ms: ** 3: Navigate to google.com ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00007571ms: ** 4: Type ust  in Google Search textbox ** started    [MsgId: MMSG-205180]
+t=00009011ms: ** 4: Type ust  in Google Search textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00009519ms: ** 5: Press Enter key on Google Search textbox ** started    [MsgId: MMSG-205180]
+t=00011332ms: ** 5: Press Enter key on Google Search textbox ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Warning: The "vuser_init" section contains step(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations.
+Running Vuser...
+Starting iteration 1.
+t=00012078ms: ** 1: Add empty tab ** started    [MsgId: MMSG-205180]
+t=00012314ms: ** 1: Add empty tab ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00012821ms: ** 2: Activate tab  #2 ** started    [MsgId: MMSG-205180]
+t=00013056ms: ** 2: Activate tab  #2 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00013565ms: ** 3: Navigate to TC.getParam("url") ** started    [MsgId: MMSG-205180]
+t=00015441ms: ** 3: Navigate to http://www.google.com/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00015950ms: ** 4: Click on Google Search textbox ** started    [MsgId: MMSG-205180]
+t=00016219ms: ** 4: Click on Google Search textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00016726ms: ** 5: Type ust trivandrum in Google Search textbox ** started    [MsgId: MMSG-205180]
+t=00021189ms: ** 5: Type ust trivandrum in Google Search textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00021698ms: ** 6: Press Enter key on Google Search textbox ** started    [MsgId: MMSG-205180]
+t=00023563ms: ** 6: Press Enter key on Google Search textbox ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 1" ended with a "Pass" status (Duration: 19.4920 Wasted Time: 5.8350).
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ust-git-practice\Loadrunner-scripts\Correlation WebHttpHtml1
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\ust-git-practice\loadrunner-scripts\correlation webhttphtml1\\logfile.log
+d:\ust-git-practice\loadrunner-scripts\correlation webhttphtml1\\combined_Correlation WebHttpHtml1.c
+d:\ust-git-practice\loadrunner-scripts\correlation webhttphtml1\\pre_cci.c
