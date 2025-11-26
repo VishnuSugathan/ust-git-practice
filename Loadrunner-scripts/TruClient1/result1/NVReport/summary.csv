@@ -1,0 +1,2 @@
+Transaction Name,Flow Name,Packet List Name,Transaction Duration (seconds),Network Time (seconds) ,Throughput Up (KB),Throughput Down (KB),Number of Requests,Errors,Analysis Score (Desktop) ,Analysis Score (Mobile) ,Transaction HTML Report Name
+Undefined,,,-0.0,11.5,130.7,815.0,203,0,70.0,70.0,report0.html
