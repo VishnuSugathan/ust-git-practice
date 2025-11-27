@@ -1,6 +1,6 @@
-Virtual User Script started at : 25-11-2025 12:15:16
+Virtual User Script started at : 26-11-2025 17:01:33
 Starting action vuser_init.
-Web Turbo Replay of LoadRunner 12.53.0 for Windows 10; build 1203 (Nov 25 2025 19:13:20)  	[MsgId: MMSG-26983]
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 10; build 1203 (Nov 26 2025 19:13:20)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
 Run-Time Settings file: "D:\ust-git-practice\Loadrunner-scripts\Correlation WebHttpHtml1\\default.cfg"  	[MsgId: MMSG-27141]
