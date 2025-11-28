@@ -1,0 +1,14 @@
+Test Plan: Performance Testing
+
+* Scope
+    - API's to be tested: create ticket, get ticket, update ticket, view ticket
+
+* Performance Criteria
+    - Response time: < 2 seconds for 95% of requests
+    - Error rate: < 1%
+
+* Test Scenario : Load Testing
+
+* Tool - JMeter
+
+* Metrics to Collect - Response time, throughput,error rates
