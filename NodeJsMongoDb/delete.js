@@ -1,6 +1,8 @@
 const { MongoClient } = require('mongodb');
 const url = "mongodb://localhost:27017/";
 
+
+
 async function createCollection() {
   try {
     const client = await MongoClient.connect(url);
