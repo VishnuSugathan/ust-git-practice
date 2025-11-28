@@ -8006,3 +8006,5 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1763968132141,93,Installing-0,301,Moved Permanently,Jenkins Test 1-807,,true,,463,136,1,1,http://www.jenkins.io/doc/book/installing,93,0,83
 1763968132234,11224,Installing-1,301,Moved Permanently,Jenkins Test 1-807,text,true,,607,136,1,1,https://www.jenkins.io/doc/book/installing,11224,0,11215
 1763968143459,51,Installing-2,200,OK,Jenkins Test 1-807,text,true,,16651,137,1,1,https://www.jenkins.io/doc/book/installing/,9,0,0
+1764233886927,856,Get Request,200,OK,Thread Group 1-1,text,true,,1141,154,1,1,https://postman-echo.com/get,856,0,605
+1764233887801,234,Post  Request,200,OK,Thread Group 1-1,text,true,,1252,209,1,1,https://postman-echo.com/post,234,0,0
