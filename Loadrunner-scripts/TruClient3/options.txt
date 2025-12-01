@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ust-git-practice\Loadrunner-scripts\TruClient3
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\ust-git-practice\loadrunner-scripts\truclient3\\logfile.log
+d:\ust-git-practice\loadrunner-scripts\truclient3\\combined_TruClient3.c
+d:\ust-git-practice\loadrunner-scripts\truclient3\\pre_cci.c
