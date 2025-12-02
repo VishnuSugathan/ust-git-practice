@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ust-git-practice\Loadrunner-scripts\LoginPassFail
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\ust-git-practice\loadrunner-scripts\loginpassfail\\logfile.log
+d:\ust-git-practice\loadrunner-scripts\loginpassfail\\combined_LoginPassFail.c
+d:\ust-git-practice\loadrunner-scripts\loginpassfail\\pre_cci.c

@@ -1,0 +1,23 @@
+Virtual User Script started at : 02-12-2025 11:31:16
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 10; build 1203 (Dec 02 2025 19:13:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "D:\ust-git-practice\Loadrunner-scripts\WebHt\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 4  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.js(11): web.addHeader("myheader") started  	[MsgId: MMSG-26355]
+Action.js(11): web.addHeader("myheader") was successful  	[MsgId: MMSG-26392]
+Action.js(12): web.customRequest("undefined") started  	[MsgId: MMSG-26355]
+Action.js(12): Error -27272: The "URL" argument is missing or empty  	[MsgId: MERR-27272]
+Action.js(12): web.customRequest("undefined") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.js(12): Error: Call function 'web.customRequest' in script 'D:\ust-git-practice\Loadrunner-scripts\WebHt\Action.js' error.
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,21 @@
+Virtual User Script started at : 2025-12-02 15:01:34
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/02 at 15:01:32 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00003285ms: ** 1: Navigate to "http://127.0.0.1:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00003773ms: ** 1: Navigate to http://127.0.0.1:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00004302ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00004606ms: ** 2: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005129ms: ** 3: Type vishnusugathan in Username textbox ** started    [MsgId: MMSG-205180]
+t=00009912ms: ** 3: Type vishnusugathan in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010451ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00010725ms: ** 4: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00011257ms: ** 5: Type ****** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00013728ms: ** 5: Type ****** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00014264ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00014899ms: ** 6: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00014918ms: ** 7: If Web Tours Error   Incorrect...'s Visible Text Contain Web Tours Error - Incorrect Password ** started    [MsgId: MMSG-205180]
+t=00015382ms: ** 7: If Web Tours Error   Incorrect...'s Visible Text Contain Web Tours Error - Incorrect Password ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

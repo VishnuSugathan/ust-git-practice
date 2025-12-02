@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ust-git-practice\Loadrunner-scripts\ItenaryScript
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\ust-git-practice\loadrunner-scripts\itenaryscript\\logfile.log
+d:\ust-git-practice\loadrunner-scripts\itenaryscript\\combined_ItenaryScript.c
+d:\ust-git-practice\loadrunner-scripts\itenaryscript\\pre_cci.c

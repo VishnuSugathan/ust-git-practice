@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ust-git-practice\Loadrunner-scripts\FlightBookingScenario
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\ust-git-practice\loadrunner-scripts\flightbookingscenario\\logfile.log
+d:\ust-git-practice\loadrunner-scripts\flightbookingscenario\\combined_FlightBookingScenario.c
+d:\ust-git-practice\loadrunner-scripts\flightbookingscenario\\pre_cci.c

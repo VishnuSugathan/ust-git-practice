@@ -1,0 +1,34 @@
+****** Start Log Message ******
+Web Recorder version : 12.53.1203.0 
+Recording Mode: HTML-based script
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.53.1203.0
+
+****** Analyze segments filter initialization ******
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 0)
+	web_reg_find("Text=Web Tours Error - Incorrect Password",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** JavaScript function for previous event ******
+
+	web.regFind(
+		{
+			text : 'Web Tours Error - Incorrect Password'
+		}
+	);
+
+$$$$$$ End of JavaScript function $$$$$$
+
