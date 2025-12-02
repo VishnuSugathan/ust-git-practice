@@ -1,0 +1,37 @@
+Virtual User Script started at : 2025-12-02 12:15:30
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/02 at 12:15:28 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Login_txn" started.
+t=00003103ms: ** 1: Navigate to "http://127.0.0.1:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00004038ms: ** 1: Navigate to http://127.0.0.1:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00004550ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00004856ms: ** 2: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005379ms: ** 3: Type vishnusugathan in Username textbox ** started    [MsgId: MMSG-205180]
+t=00010443ms: ** 3: Type vishnusugathan in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010967ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00011262ms: ** 4: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00011789ms: ** 5: Type ********** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00015732ms: ** 5: Type ********** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00016264ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00016981ms: ** 6: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00017509ms: ** 7: Click on Search Flights Button image ** started    [MsgId: MMSG-205180]
+t=00018199ms: ** 7: Click on Search Flights Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00018720ms: ** 8: Click on findFlights button ** started    [MsgId: MMSG-205180]
+t=00019335ms: ** 8: Click on findFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00019848ms: ** 9: Click on reserveFlights button ** started    [MsgId: MMSG-205180]
+t=00020433ms: ** 9: Click on reserveFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00020956ms: ** 10: Click on buyFlights button ** started    [MsgId: MMSG-205180]
+t=00021608ms: ** 10: Click on buyFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00022118ms: ** 11: Click on Itinerary Button image ** started    [MsgId: MMSG-205180]
+t=00022890ms: ** 11: Click on Itinerary Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00023427ms: ** 12: Click on A Coach class ticket for  checkbox ** started    [MsgId: MMSG-205180]
+t=00023522ms: ** 12: Click on A Coach class ticket for  checkbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00024039ms: ** 13: Click on removeFlights button ** started    [MsgId: MMSG-205180]
+t=00024729ms: ** 13: Click on removeFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00025241ms: ** 14: Click on SignOff Button image ** started    [MsgId: MMSG-205180]
+t=00025888ms: ** 14: Click on SignOff Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Login_txn" ended with a "Pass" status (Duration: 22.8670 Wasted Time: 9.3770).
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

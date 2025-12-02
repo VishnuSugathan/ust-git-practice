@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ust-git-practice\Loadrunner-scripts\WrongPaswordScenario
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\ust-git-practice\loadrunner-scripts\wrongpaswordscenario\logfile.log
+d:\ust-git-practice\loadrunner-scripts\wrongpaswordscenario\combined_WrongPaswordScenario.c
+d:\ust-git-practice\loadrunner-scripts\wrongpaswordscenario\pre_cci.c

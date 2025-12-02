@@ -1,0 +1,15 @@
+[API Trapper      (2f64:3fac)] Recording in 32-bit mode: C:\Program Files (x86)\HP\LoadRunner\bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (1bbc:12b0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1bbc:12b0)] Load Network Traffic Analyzers:
+[Network Analyzer (1bbc:12b0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1bbc:12b0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1bbc:12b0)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1bbc:12b0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1bbc:12b0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1bbc:12b0)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1bbc:12b0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1bbc:12b0)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (1bbc:12b0)] Started proxy on port 8888 in synchronous mode
+[Proxy Recording  (1bbc:1f3c)] Client request from @ 127.0.0.1:56441
+[Proxy Recording  (1bbc:1c44)] Trying to connect to /proxyroot.cer ...
+[Proxy Recording.Error (1bbc:1c44)] Exception is caught while connecting to /proxyroot.cer, message=Invalid URI: The format of the URI could not be determined.

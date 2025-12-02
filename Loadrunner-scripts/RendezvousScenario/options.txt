@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ust-git-practice\Loadrunner-scripts\RendezvousScenario
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\ust-git-practice\loadrunner-scripts\rendezvousscenario\\logfile.log
+d:\ust-git-practice\loadrunner-scripts\rendezvousscenario\\combined_RendezvousScenario.c
+d:\ust-git-practice\loadrunner-scripts\rendezvousscenario\\pre_cci.c

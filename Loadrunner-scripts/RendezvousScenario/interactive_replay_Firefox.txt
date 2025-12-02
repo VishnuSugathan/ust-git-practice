@@ -1,0 +1,37 @@
+Virtual User Script started at : 2025-12-02 16:33:05
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/02 at 16:33:04 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00003012ms: ** 1: Navigate to "http://127.0.0.1:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00003338ms: ** 1: Navigate to http://127.0.0.1:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00003864ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00004253ms: ** 2: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00004777ms: ** 3: Type vishnusugathan in Username textbox ** started    [MsgId: MMSG-205180]
+t=00011137ms: ** 3: Type vishnusugathan in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00011676ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00012077ms: ** 4: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00012596ms: ** 5: Type ********** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00016354ms: ** 5: Type ********** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00016882ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00017360ms: ** 6: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00017369ms: ** 7: Rendezvous flight search ** started    [MsgId: MMSG-205180]
+Rendezvous flight search
+t=00017371ms: Rendezvous step is only replayed in load test launched by LoadRunner controller.    [MsgId: MMSG-205180]
+t=00017575ms: ** 7: Rendezvous flight search ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00018108ms: ** 8: Click on Search Flights Button image ** started    [MsgId: MMSG-205180]
+t=00018714ms: ** 8: Click on Search Flights Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00019247ms: ** 9: Select Frankfurt from Departure City  listbox ** started    [MsgId: MMSG-205180]
+t=00019682ms: ** 9: Select Frankfurt from Departure City  listbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00020212ms: ** 10: Select Portland from Arrival City  listbox ** started    [MsgId: MMSG-205180]
+t=00020630ms: ** 10: Select Portland from Arrival City  listbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00021155ms: ** 11: Click on findFlights button ** started    [MsgId: MMSG-205180]
+t=00021586ms: ** 11: Click on findFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00022107ms: ** 12: Click on reserveFlights button ** started    [MsgId: MMSG-205180]
+t=00022523ms: ** 12: Click on reserveFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00023035ms: ** 13: Click on buyFlights button ** started    [MsgId: MMSG-205180]
+t=00023455ms: ** 13: Click on buyFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00023976ms: ** 14: Click on SignOff Button image ** started    [MsgId: MMSG-205180]
+t=00024430ms: ** 14: Click on SignOff Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.
