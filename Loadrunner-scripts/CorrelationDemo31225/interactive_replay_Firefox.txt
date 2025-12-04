@@ -1,0 +1,230 @@
+Virtual User Script started at : 2025-12-03 17:13:56
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/03 at 17:13:55 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00002785ms: ** 1: Navigate to "http://127.0.0.1:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00003249ms: ** 1: Navigate to http://127.0.0.1:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00003765ms: ** 2: Navigate to "http://127.0.0.1:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00004382ms: ** 2: Navigate to http://127.0.0.1:1080/webtours/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00004907ms: ** 3: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00005181ms: ** 3: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005695ms: ** 4: Type vishnusugathan in Username textbox ** started    [MsgId: MMSG-205180]
+t=00011581ms: ** 4: Type vishnusugathan in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00012097ms: ** 5: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00012351ms: ** 5: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00012870ms: ** 6: Type ********** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00016554ms: ** 6: Type ********** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00017069ms: ** 7: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00017694ms: ** 7: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00018209ms: ** 8: Click on SignOff Button image ** started    [MsgId: MMSG-205180]
+t=00018215ms: Error -205177: TypeError: nextStep.realStep.obj is null
+onUrlReady@chrome://truclientui/content/ui/sidebar.html:7065:104
+onProgress@chrome://truclientui/content/ui/sidebar.html:7081:5
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+TC_NS.Event.prototype.dispatch@chrome://truclientrre/content/infra/Event.js:41:3
+TC_NS.Step.prototype<.notifyProgress@chrome://truclientui/content/ui/sidebar.html:5565:5
+.runProlog@chrome://truclientui/content/ui/sidebar.html:10372:5
+runTestObj@chrome://truclientui/content/ui/sidebar.html:10396:5
+.callAsync/<@chrome://truclientrre/content/infra/StdClasses.js:85:5
+receiveMessage@chrome://truclientrre/content/infra/Utils.js:21:7
+
+While calling handlers in TC_NS.RuleEngine dispatch, event=Step "8: Click on SignOff Button image": Action started, handler=
+function onProgress(e) {
+			if (e.progressType == TC_NS.Step.PROGRESS_DOCUMENT_LOADED) {
+				step.getCurrentURL(function(url) {e.url = url; onUrlReady(e)});
+			}
+			else{
+				onUrlReady(e);
+			}
+		}       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00018247ms: Error -205177: TypeError: nextStep.realStep.obj is null
+onUrlReady@chrome://truclientui/content/ui/sidebar.html:7065:104
+onProgress@chrome://truclientui/content/ui/sidebar.html:7081:5
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+TC_NS.Event.prototype.dispatch@chrome://truclientrre/content/infra/Event.js:41:3
+TC_NS.Step.prototype<.notifyProgress@chrome://truclientui/content/ui/sidebar.html:5565:5
+._onArgumentsEvaluated/ETA<@chrome://truclientui/content/ui/sidebar.html:10389:6
+TC_NS.TestObject.prototype.execute@chrome://truclientui/content/ui/sidebar.html:3014:5
+._onArgumentsEvaluated@chrome://truclientui/content/ui/sidebar.html:10388:15
+runTestObj/<.callback@chrome://truclientui/content/ui/sidebar.html:10411:8
+onArgumentsEvaluated@chrome://truclientui/content/ui/sidebar.html:6542:6
+.evaluateArgs@chrome://truclientui/content/ui/sidebar.html:6877:4
+@chrome://truclientui/content/ui/sidebar.html:6550:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+runTestObj@chrome://truclientui/content/ui/sidebar.html:10403:6
+.callAsync/<@chrome://truclientrre/content/infra/StdClasses.js:85:5
+receiveMessage@chrome://truclientrre/content/infra/Utils.js:21:7
+
+While calling handlers in TC_NS.RuleEngine dispatch, event=Step "8: Click on SignOff Button image": Scrolled into view, handler=
+function onProgress(e) {
+			if (e.progressType == TC_NS.Step.PROGRESS_DOCUMENT_LOADED) {
+				step.getCurrentURL(function(url) {e.url = url; onUrlReady(e)});
+			}
+			else{
+				onUrlReady(e);
+			}
+		}       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00018258ms: Error -205177: TypeError: nextStep.realStep.obj is null
+onUrlReady@chrome://truclientui/content/ui/sidebar.html:7065:104
+onProgress@chrome://truclientui/content/ui/sidebar.html:7081:5
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+TC_NS.Event.prototype.dispatch@chrome://truclientrre/content/infra/Event.js:41:3
+TC_NS.Step.prototype<.notifyProgress@chrome://truclientui/content/ui/sidebar.html:5565:5
+._internalFinishStep@chrome://truclientui/content/ui/sidebar.html:10326:1
+._finishStep@chrome://truclientui/content/ui/sidebar.html:10350:12
+.onTestObjEndExecute@chrome://truclientui/content/ui/sidebar.html:10356:12
+.runProlog/<@chrome://truclientui/content/ui/sidebar.html:10369:6
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.endExecute@chrome://truclientui/content/ui/sidebar.html:3173:3
+.callAsync/<@chrome://truclientrre/content/infra/StdClasses.js:85:5
+receiveMessage@chrome://truclientrre/content/infra/Utils.js:21:7
+
+While calling handlers in TC_NS.RuleEngine dispatch, event=Step "8: Click on SignOff Button image": Action completed, handler=
+function onProgress(e) {
+			if (e.progressType == TC_NS.Step.PROGRESS_DOCUMENT_LOADED) {
+				step.getCurrentURL(function(url) {e.url = url; onUrlReady(e)});
+			}
+			else{
+				onUrlReady(e);
+			}
+		}       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00018259ms: Error -205177: TypeError: step.nextStep.realStep.obj is null
+onProgress@chrome://truclientui/content/ui/sidebar.html:7135:77
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+TC_NS.Event.prototype.dispatch@chrome://truclientrre/content/infra/Event.js:41:3
+TC_NS.Step.prototype<.notifyProgress@chrome://truclientui/content/ui/sidebar.html:5565:5
+._internalFinishStep@chrome://truclientui/content/ui/sidebar.html:10326:1
+._finishStep@chrome://truclientui/content/ui/sidebar.html:10350:12
+.onTestObjEndExecute@chrome://truclientui/content/ui/sidebar.html:10356:12
+.runProlog/<@chrome://truclientui/content/ui/sidebar.html:10369:6
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.endExecute@chrome://truclientui/content/ui/sidebar.html:3173:3
+.callAsync/<@chrome://truclientrre/content/infra/StdClasses.js:85:5
+receiveMessage@chrome://truclientrre/content/infra/Utils.js:21:7
+
+While calling handlers in TC_NS.RuleEngine dispatch, event=Step "8: Click on SignOff Button image": Action completed, handler=
+function onProgress(e) {
+			
+				function onReadyStateUpdated(){
+					var nettime;
+					var nextReadyOrLast = (!step.nextStep || step.nextStep.realStep.readyState.isReady);
+					if (nextReadyOrLast)
+						nettime = networkThreshold * 2;
+					else
+						nettime = networkThreshold * 5;
+					
+					syncNetCompleteTimer = setTimeout(function () { onSyncNetComplete(); }, nettime);			
+				}
+			
+				if (e.progressType === TC_NS.Step.PROGRESS_ACTION_STARTED) {
+					onRequestStart.bindToEvent("network/request/start");
+					onRequestEnd.bindToEvent("network/request/end");
+					onXHROpen.bindToEvent("network/xhr/open");
+
+					// relevant only for IE (not fired in FF)
+					onRequestBatch.bindToEvent("network/request/all");
+					onResponseRetCode.bindToEvent("network/response/retcode");
+
+					networkTimeoutListener = step.query.addOnetimeEventListener("step/network/timeout", notifyNetworkProgress);
+					timeoutListener = step.query.addOnetimeEventListener("step/timeout", onStepOrNetworkTimeout);
+				}
+				else if (e.progressType === TC_NS.Step.PROGRESS_ACTION_COMPLETED) {
+					actionCompleted = true;
+					if (requests.length === 0 || requests.length === xhrReqs.length) {
+						var time = 0;
+						if (hadRequests || hasEndEvent){
+							time = networkThreshold;
+							syncNetCompleteTimer = setTimeout(function () { onSyncNetComplete(); }, time);
+						}
+						else {
+							if (step.nextStep && step.nextStep.realStep.type === "testObject" && !step.nextStep.realStep.obj.hasRole("browser")){
+								step.nextStep.realStep.query.addOnetimeEventListener("step/ready-state-updated", onReadyStateUpdated);
+								step.nextStep.realStep.updateReadyState();
+							} else {
+								onReadyStateUpdated();					
+							}
+						}
+					}
+				}
+			}       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00018259ms: Error -205177: TypeError: nextStep.realStep.obj is null
+onUrlReady@chrome://truclientui/content/ui/sidebar.html:7065:104
+onProgress@chrome://truclientui/content/ui/sidebar.html:7081:5
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+TC_NS.Event.prototype.dispatch@chrome://truclientrre/content/infra/Event.js:41:3
+TC_NS.Step.prototype<.notifyProgress@chrome://truclientui/content/ui/sidebar.html:5565:5
+onProgress@chrome://truclientui/content/ui/sidebar.html:7508:7
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+TC_NS.Event.prototype.dispatch@chrome://truclientrre/content/infra/Event.js:41:3
+TC_NS.Step.prototype<.notifyProgress@chrome://truclientui/content/ui/sidebar.html:5565:5
+._internalFinishStep@chrome://truclientui/content/ui/sidebar.html:10326:1
+._finishStep@chrome://truclientui/content/ui/sidebar.html:10350:12
+.onTestObjEndExecute@chrome://truclientui/content/ui/sidebar.html:10356:12
+.runProlog/<@chrome://truclientui/content/ui/sidebar.html:10369:6
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.endExecute@chrome://truclientui/content/ui/sidebar.html:3173:3
+.callAsync/<@chrome://truclientrre/content/infra/StdClasses.js:85:5
+receiveMessage@chrome://truclientrre/content/infra/Utils.js:21:7
+
+While calling handlers in TC_NS.RuleEngine dispatch, event=Step "8: Click on SignOff Button image": Timers ended, handler=
+function onProgress(e) {
+			if (e.progressType == TC_NS.Step.PROGRESS_DOCUMENT_LOADED) {
+				step.getCurrentURL(function(url) {e.url = url; onUrlReady(e)});
+			}
+			else{
+				onUrlReady(e);
+			}
+		}       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00018596ms: Error -205177: TypeError: nextStep.realStep.obj is null
+onUrlReady@chrome://truclientui/content/ui/sidebar.html:7065:104
+onProgress@chrome://truclientui/content/ui/sidebar.html:7081:5
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+TC_NS.Event.prototype.dispatch@chrome://truclientrre/content/infra/Event.js:41:3
+TC_NS.Step.prototype<.notifyProgress@chrome://truclientui/content/ui/sidebar.html:5565:5
+onSyncNetComplete@chrome://truclientui/content/ui/sidebar.html:7299:1
+.handler/onRequestEnd/syncNetCompleteTimer<@chrome://truclientui/content/ui/sidebar.html:7241:54
+
+While calling handlers in TC_NS.RuleEngine dispatch, event=Step "8: Click on SignOff Button image": Step synchronous network completed, handler=
+function onProgress(e) {
+			if (e.progressType == TC_NS.Step.PROGRESS_DOCUMENT_LOADED) {
+				step.getCurrentURL(function(url) {e.url = url; onUrlReady(e)});
+			}
+			else{
+				onUrlReady(e);
+			}
+		}       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00018597ms: Error -205177: TypeError: nextStep.realStep.obj is null
+onUrlReady@chrome://truclientui/content/ui/sidebar.html:7065:104
+onProgress@chrome://truclientui/content/ui/sidebar.html:7081:5
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+TC_NS.Event.prototype.dispatch@chrome://truclientrre/content/infra/Event.js:41:3
+TC_NS.Step.prototype<.notifyProgress@chrome://truclientui/content/ui/sidebar.html:5565:5
+onNetComplete@chrome://truclientui/content/ui/sidebar.html:7306:5
+onSyncNetComplete@chrome://truclientui/content/ui/sidebar.html:7300:93
+.handler/onRequestEnd/syncNetCompleteTimer<@chrome://truclientui/content/ui/sidebar.html:7241:54
+
+While calling handlers in TC_NS.RuleEngine dispatch, event=Step "8: Click on SignOff Button image": Step network completed, handler=
+function onProgress(e) {
+			if (e.progressType == TC_NS.Step.PROGRESS_DOCUMENT_LOADED) {
+				step.getCurrentURL(function(url) {e.url = url; onUrlReady(e)});
+			}
+			else{
+				onUrlReady(e);
+			}
+		}       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00198256ms: Error -205177: ** 8: Click on SignOff Button image ** timed out       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+Ending iteration 1.
+Ending Vuser...
+t=59188258ms: Dialog-Confirm: Vuser is running. Do you want to stop it now?    [MsgId: MMSG-205180]
+Vuser Terminated.
