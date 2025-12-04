@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ust-git-practice\Final Assesment\LoadRunner Scripts\ItineraryTest
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\ust-git-practice\final assesment\loadrunner scripts\itinerarytest\\logfile.log
+d:\ust-git-practice\final assesment\loadrunner scripts\itinerarytest\\combined_ItineraryTest.c
+d:\ust-git-practice\final assesment\loadrunner scripts\itinerarytest\\pre_cci.c

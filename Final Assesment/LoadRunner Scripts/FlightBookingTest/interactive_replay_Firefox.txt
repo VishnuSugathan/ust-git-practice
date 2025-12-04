@@ -1,0 +1,51 @@
+Virtual User Script started at : 2025-12-04 15:28:05
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/04 at 15:28:04 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Login" started.
+t=00002948ms: ** 1: Navigate to "http://127.0.0.1:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00003236ms: ** 1: Navigate to http://127.0.0.1:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00003753ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00004145ms: ** 2: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00004656ms: ** 3: Type vishnusugathan in Username textbox ** started    [MsgId: MMSG-205180]
+t=00009748ms: ** 3: Type vishnusugathan in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010265ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00010634ms: ** 4: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00011145ms: ** 5: Type ********** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00014866ms: ** 5: Type ********** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00015378ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00015838ms: ** 6: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Login" ended with a "Pass" status (Duration: 12.9170 Wasted Time: 3.1410).
+Notify: Transaction "SearchFlight" started.
+t=00016377ms: ** 7: Click on Search Flights Button image ** started    [MsgId: MMSG-205180]
+t=00016898ms: ** 7: Click on Search Flights Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00017419ms: ** 8: Select Seattle from Departure City  listbox ** started    [MsgId: MMSG-205180]
+t=00017793ms: ** 8: Select Seattle from Departure City  listbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00018303ms: ** 9: Select Zurich from Arrival City  listbox ** started    [MsgId: MMSG-205180]
+t=00018713ms: ** 9: Select Zurich from Arrival City  listbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00019221ms: ** 10: Click on 1 textbox ** started    [MsgId: MMSG-205180]
+t=00019596ms: ** 10: Click on 1 textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00020107ms: ** 11: Type 10 in 1 textbox ** started    [MsgId: MMSG-205180]
+t=00020838ms: ** 11: Type 10 in 1 textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00021352ms: ** 12: Click on WindowWindow label ** started    [MsgId: MMSG-205180]
+t=00021724ms: ** 12: Click on WindowWindow label ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00022236ms: ** 13: Click on Business radio ** started    [MsgId: MMSG-205180]
+t=00022608ms: ** 13: Click on Business radio ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00023120ms: ** 14: Click on Roundtrip ticket checkbox ** started    [MsgId: MMSG-205180]
+t=00023501ms: ** 14: Click on Roundtrip ticket checkbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00024011ms: ** 15: Click on findFlights button ** started    [MsgId: MMSG-205180]
+t=00024455ms: ** 15: Click on findFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00024975ms: ** 16: Click on 792;613;12/05/2025 radio ** started    [MsgId: MMSG-205180]
+t=00025364ms: ** 16: Click on 792;613;12/05/2025 radio ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00025877ms: ** 17: Click on 973;531;12/06/2025 radio ** started    [MsgId: MMSG-205180]
+t=00026281ms: ** 17: Click on 973;531;12/06/2025 radio ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00026804ms: ** 18: Click on reserveFlights button ** started    [MsgId: MMSG-205180]
+t=00027191ms: ** 18: Click on reserveFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "SearchFlight" ended with a "Pass" status (Duration: 10.8400 Wasted Time: 6.1930).
+t=00027707ms: ** 19: Click on buyFlights button ** started    [MsgId: MMSG-205180]
+t=00028112ms: ** 19: Click on buyFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00028625ms: ** 20: Click on SignOff Button image ** started    [MsgId: MMSG-205180]
+t=00029023ms: ** 20: Click on SignOff Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

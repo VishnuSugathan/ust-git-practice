@@ -1,0 +1,43 @@
+Virtual User Script started at : 2025-12-04 14:41:13
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/04 at 14:41:11 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00003493ms: ** 1: Navigate to "http://127.0.0.1:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00011837ms: ** 1: Navigate to http://127.0.0.1:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00012353ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00012755ms: ** 2: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00013258ms: ** 3: Type vishnusugathan in Username textbox ** started    [MsgId: MMSG-205180]
+t=00017867ms: ** 3: Type vishnusugathan in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00018393ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00018770ms: ** 4: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00019284ms: ** 5: Type ********** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00023771ms: ** 5: Type ********** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00024285ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00030495ms: ** 6: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00031024ms: ** 7: Click on Search Flights Button image ** started    [MsgId: MMSG-205180]
+t=00031881ms: ** 7: Click on Search Flights Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00032398ms: ** 8: Click on findFlights button ** started    [MsgId: MMSG-205180]
+t=00032992ms: ** 8: Click on findFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00033506ms: ** 9: Click on reserveFlights button ** started    [MsgId: MMSG-205180]
+t=00033941ms: ** 9: Click on reserveFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00034459ms: ** 10: Click on buyFlights button ** started    [MsgId: MMSG-205180]
+t=00034992ms: ** 10: Click on buyFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00035511ms: ** 11: Click on Book Another button ** started    [MsgId: MMSG-205180]
+t=00035982ms: ** 11: Click on Book Another button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00036490ms: ** 12: Click on findFlights button ** started    [MsgId: MMSG-205180]
+t=00037249ms: ** 12: Click on findFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00037773ms: ** 13: Click on reserveFlights button ** started    [MsgId: MMSG-205180]
+t=00038518ms: ** 13: Click on reserveFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00039036ms: ** 14: Click on buyFlights button ** started    [MsgId: MMSG-205180]
+t=00039477ms: ** 14: Click on buyFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00039996ms: ** 15: Click on Itinerary Button image ** started    [MsgId: MMSG-205180]
+t=00043540ms: ** 15: Click on Itinerary Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00044058ms: ** 16: Click on removeAllFlights button ** started    [MsgId: MMSG-205180]
+t=00044749ms: ** 16: Click on removeAllFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00045252ms: ** 17: Click on Home Button image ** started    [MsgId: MMSG-205180]
+t=00045691ms: ** 17: Click on Home Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00046205ms: ** 18: Click on SignOff Button image ** started    [MsgId: MMSG-205180]
+t=00046732ms: ** 18: Click on SignOff Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.
