@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ust-git-practice\Loadrunner-scripts\CorrelationDemo31225
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\ust-git-practice\loadrunner-scripts\correlationdemo31225\\logfile.log
+d:\ust-git-practice\loadrunner-scripts\correlationdemo31225\\combined_CorrelationDemo31225.c
+d:\ust-git-practice\loadrunner-scripts\correlationdemo31225\\pre_cci.c
