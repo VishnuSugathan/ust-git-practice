@@ -1,0 +1,23 @@
+Virtual User Script started at : 2025-12-04 14:31:56
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/04 at 14:31:54 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00003378ms: ** 1: Navigate to "http://127.0.0.1:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00008896ms: ** 1: Navigate to http://127.0.0.1:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00009407ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00009666ms: ** 2: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010182ms: ** 3: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00010460ms: ** 3: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010971ms: ** 4: Type vishnusugathan in Username textbox ** started    [MsgId: MMSG-205180]
+t=00017199ms: ** 4: Type vishnusugathan in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00017720ms: ** 5: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00018013ms: ** 5: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00018534ms: ** 6: Type **** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00020807ms: ** 6: Type **** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00021323ms: ** 7: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00028637ms: ** 7: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00028637ms: ** 8: Verify  The username/password...'s "Visible Text" Contain The username/password co...r your patience. ** started    [MsgId: MMSG-205180]
+t=00028903ms: ** 8: Verify  The username/password...'s "Visible Text" Contain The username/password co...r your patience. ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

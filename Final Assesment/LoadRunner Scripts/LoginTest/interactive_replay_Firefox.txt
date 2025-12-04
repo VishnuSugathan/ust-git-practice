@@ -1,0 +1,23 @@
+Virtual User Script started at : 2025-12-04 12:12:39
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/04 at 12:12:37 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00003079ms: ** 1: Navigate to "http://127.0.0.1:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00003341ms: ** 1: Navigate to http://127.0.0.1:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00003854ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00004240ms: ** 2: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00004792ms: ** 3: Type vishnusugathan in Username textbox ** started    [MsgId: MMSG-205180]
+t=00009846ms: ** 3: Type vishnusugathan in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010364ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00010737ms: ** 4: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00011273ms: ** 5: Type ********** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00014882ms: ** 5: Type ********** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00015398ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00015833ms: ** 6: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00015840ms: ** 7: Verify  Welcome, vishnusugathan,...'s "Visible Text" Contain Welcome, vishnusugathan,...hen you're done! ** started    [MsgId: MMSG-205180]
+t=00016092ms: ** 7: Verify  Welcome, vishnusugathan,...'s "Visible Text" Contain Welcome, vishnusugathan,...hen you're done! ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00016607ms: ** 8: Click on SignOff Button image ** started    [MsgId: MMSG-205180]
+t=00016975ms: ** 8: Click on SignOff Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

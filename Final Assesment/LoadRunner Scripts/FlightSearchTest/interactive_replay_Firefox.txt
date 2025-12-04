@@ -1,0 +1,43 @@
+Virtual User Script started at : 2025-12-04 14:17:36
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/04 at 14:17:34 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00003114ms: ** 1: Navigate to "http://127.0.0.1:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00009104ms: ** 1: Navigate to http://127.0.0.1:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00009615ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00009939ms: ** 2: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010456ms: ** 3: Type vishnusugathan in Username textbox ** started    [MsgId: MMSG-205180]
+t=00015562ms: ** 3: Type vishnusugathan in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00016084ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00016371ms: ** 4: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00016891ms: ** 5: Type ********** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00021989ms: ** 5: Type ********** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00022503ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00030784ms: ** 6: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00031302ms: ** 7: Click on Search Flights Button image ** started    [MsgId: MMSG-205180]
+t=00032151ms: ** 7: Click on Search Flights Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00032671ms: ** 8: Select Portland from Departure City  listbox ** started    [MsgId: MMSG-205180]
+t=00032748ms: ** 8: Select Portland from Departure City  listbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00033275ms: ** 9: Select Los Angeles from Arrival City  listbox ** started    [MsgId: MMSG-205180]
+t=00033378ms: ** 9: Select Los Angeles from Arrival City  listbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00033874ms: ** 11: Click on 12/05/2025 textbox ** started    [MsgId: MMSG-205180]
+t=00034153ms: ** 11: Click on 12/05/2025 textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00034670ms: ** 12: Type 12/3/2024 in 12/05/2025 textbox ** started    [MsgId: MMSG-205180]
+t=00038581ms: ** 12: Type 12/3/2024 in 12/05/2025 textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00039099ms: ** 13: Click on First radio ** started    [MsgId: MMSG-205180]
+t=00039503ms: ** 13: Click on First radio ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00040035ms: ** 14: Click on findFlights button ** started    [MsgId: MMSG-205180]
+t=00042367ms: ** 14: Click on findFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00042889ms: ** 15: Click on 532;351;12/3/2024Blue... gridcell ** started    [MsgId: MMSG-205180]
+t=00043305ms: ** 15: Click on 532;351;12/3/2024Blue... gridcell ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00043817ms: ** 16: Click on 532;351;12/3/2024 radio ** started    [MsgId: MMSG-205180]
+t=00044178ms: ** 16: Click on 532;351;12/3/2024 radio ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00044694ms: ** 17: Click on 531;330;12/3/2024 radio ** started    [MsgId: MMSG-205180]
+t=00045066ms: ** 17: Click on 531;330;12/3/2024 radio ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00045587ms: ** 18: Click on 533;303;12/3/2024 radio ** started    [MsgId: MMSG-205180]
+t=00045971ms: ** 18: Click on 533;303;12/3/2024 radio ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00046489ms: ** 19: Click on reserveFlights button ** started    [MsgId: MMSG-205180]
+t=00046968ms: ** 19: Click on reserveFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

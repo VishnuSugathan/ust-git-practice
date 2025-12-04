@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ust-git-practice\Final Assesment\LoadRunner Scripts\LoginUnsucessfulTest
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\ust-git-practice\final assesment\loadrunner scripts\loginunsucessfultest\\logfile.log
+d:\ust-git-practice\final assesment\loadrunner scripts\loginunsucessfultest\\combined_LoginUnsucessfulTest.c
+d:\ust-git-practice\final assesment\loadrunner scripts\loginunsucessfultest\\pre_cci.c
